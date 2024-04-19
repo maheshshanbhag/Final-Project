@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.login{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 242, 247);
+}
+.login-form{
+    height: 300px;
+    width: 300px;
+    padding: 17px;
+    /* box-shadow: 14px 18px 100px rgb(158, 242, 158); */
+    box-shadow: 5px 5px 5px 1px ;
+    border: 1px dotted rgb(221, 237, 243); 
+    border-bottom: 2px solid rgb(187, 252, 187);
+    background-color: white;
+    border-radius: 8px;
+}
+form #heading h2{
+    text-align: center;
+}
+form #heading h2 span{
+    color: rgb(38, 223, 137);
+}
+form input{
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(146, 251, 117);
+    padding-left: 10px;
+}
+form input{
+    margin: 7px 0px 7px 45px;
+}
+form input:active{
+    border: none;
+}
+form .forgot {
+    text-align: center;
+    margin-bottom: 14px;
+}
+form .forgot a{
+    font-size: 14px;
+    color: rgb(3, 3, 73);
+}
+form #submit button{
+    margin-left: 100px;
+    padding: 2px 12px;
+    font-family: cursive;
+    font-size: 18px;
+    background-color: rgb(38, 223, 137);
+    color: aliceblue;
+    border: 1px solid rgb(38, 223, 137);
+    border-radius: 4px;
+    cursor: pointer;
+}
+form #footer p{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+}
+form #footer a{
+    font-size: 12px;
+}
+.signIn-icons{
+    margin-top: 8px;
+    text-align: center;
+}
+.para p{
+    font-weight: 600;
+    margin-top: 5px;
+    color: rgb(239, 8, 8);
+    text-align: center;
+    font-size: 20px;
+}
